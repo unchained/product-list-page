@@ -8,7 +8,7 @@ class Client {
     const filters = $('#filters');
 
     TweenMax.set(filters, {
-      xPercent: -100,
+      xPercent: -100
     });
 
     $('.product-list__filtration-genre')
@@ -19,7 +19,7 @@ class Client {
         });
       });
 
-    $('.filter-item')
+    $('.grid-item')
       .click(function () {
         TweenMax.to(filters, 0.25, {
           xPercent: -100,
