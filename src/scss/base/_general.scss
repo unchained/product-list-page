@@ -1,24 +1,13 @@
-/**
-*   Global classes
-**/
-
-
-/**
-*   General page styles
-**/
-
-html{
-
-}
-
 body {
-
+  font-family: 'Lato', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
-  &:hover, &:focus{
+
+  &:hover,
+  &:focus {
     color: inherit;
   }
 }
